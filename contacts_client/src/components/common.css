@@ -1,0 +1,55 @@
+.login{
+    align-self: stretch;
+}
+.contact{
+    margin-top: 30px;
+    width: 60%;
+}
+.table{
+    padding: 20px;
+}
+.nav-bar{
+    color: white;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.nav-item{
+    display: flex;
+    padding: 10px;
+}
+.image{
+    width: 15%;
+    height: 10%;
+}
+.nav-text{
+    font-size: 20px;
+    display: grid;
+}
+.small-text{
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+/* loader */
+.progressWrap{
+    position: "fixed";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: "100%";
+    height: "100%";
+    background-color: "rgba(255; 255; 255; .5)";
+    z-index: 1002
+}
+.absolute {
+    position: "absolute"
+}
+.progress{
+    position: "absolute";
+    top: "50%";
+    left: "50%";
+    margin: "-25px 0 0 -25px;"
+}
